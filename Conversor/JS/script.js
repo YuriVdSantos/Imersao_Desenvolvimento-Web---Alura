@@ -19,7 +19,7 @@ function Converter() {
   var elementoValorConvertidoEuro = document.getElementById(
     'valorConvertidoEuro'
   )
-  var valorConvertidoEuro = 'O valor em Euro é R$ ' + valorArredondadoEuro
+  var valorConvertidoEuro = 'O valor em Euro é € ' + valorArredondadoEuro
   elementoValorConvertidoEuro.innerHTML = valorConvertidoEuro
 
   var valorEmBitCoin = valorNumerico * 0.000034
@@ -28,7 +28,6 @@ function Converter() {
   var elementoValorConvertidoBitCoin = document.getElementById(
     'valorConvertidoBitCoin'
   )
-  var valorConvertidoBitCoin =
-    'O valor em BitCoin é R$ ' + valorArredondadoBitCoin
+  var valorConvertidoBitCoin = 'O valor em BitCoin é ' + valorArredondadoBitCoin
   elementoValorConvertidoBitCoin.innerHTML = valorConvertidoBitCoin
 }
